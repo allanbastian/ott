@@ -1,0 +1,52 @@
+{
+  "categories": [
+    {
+      "id": "movies",
+      "name": "Movies",
+      "videos": [
+        {
+          "id": "movie1",
+          "title": "Big Buck Bunny",
+          "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Big_buck_bunny_poster_big.jpg/800px-Big_buck_bunny_poster_big.jpg",
+          "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+          "description": "Big Buck Bunny tells the story of a giant rabbit with a heart bigger than himself.",
+          "duration": "596",
+          "categoryId": "movies"
+        },
+        {
+          "id": "movie2",
+          "title": "Elephant Dream",
+          "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Elephants_Dream_Poster.jpg/800px-Elephants_Dream_Poster.jpg",
+          "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+          "description": "The first Blender Open Movie from 2006",
+          "duration": "653",
+          "categoryId": "movies"
+        }
+      ]
+    },
+    {
+      "id": "shows",
+      "name": "TV Shows",
+      "videos": [
+        {
+          "id": "show1",
+          "title": "Sintel",
+          "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Sintel_poster.jpg/800px-Sintel_poster.jpg",
+          "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+          "description": "Third Blender Open Movie from 2010",
+          "duration": "888",
+          "categoryId": "shows"
+        },
+        {
+          "id": "show2",
+          "title": "Tears of Steel",
+          "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Tears_of_Steel_poster.jpg/800px-Tears_of_Steel_poster.jpg",
+          "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
+          "description": "Tears of Steel was realized with crowd-funding by users of the open source 3D creation tool Blender.",
+          "duration": "734",
+          "categoryId": "shows"
+        }
+      ]
+    }
+  ]
+} 
