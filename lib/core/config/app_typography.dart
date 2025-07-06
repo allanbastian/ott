@@ -5,85 +5,87 @@ import 'app_colors.dart';
 
 class AppTypography {
   static TextTheme get textTheme {
+    final baseTextTheme = GoogleFonts.interTextTheme();
+
     return TextTheme(
       // Large Titles
-      displayLarge: GoogleFonts.inter(
+      displayLarge: baseTextTheme.displayLarge?.copyWith(
         fontSize: 32,
         fontWeight: FontWeight.bold,
-        color: AppColors.textPrimary,
         letterSpacing: -0.5,
+        color: AppColors.textPrimary,
       ),
-      displayMedium: GoogleFonts.inter(
+      displayMedium: baseTextTheme.displayMedium?.copyWith(
         fontSize: 28,
         fontWeight: FontWeight.bold,
-        color: AppColors.textPrimary,
         letterSpacing: -0.5,
+        color: AppColors.textPrimary,
       ),
 
       // Section Titles
-      headlineLarge: GoogleFonts.inter(
+      headlineLarge: baseTextTheme.headlineLarge?.copyWith(
         fontSize: 24,
         fontWeight: FontWeight.w700,
         color: AppColors.textPrimary,
       ),
-      headlineMedium: GoogleFonts.inter(
+      headlineMedium: baseTextTheme.headlineMedium?.copyWith(
         fontSize: 20,
         fontWeight: FontWeight.w600,
         color: AppColors.textPrimary,
       ),
 
       // Content Text
-      titleLarge: GoogleFonts.inter(
+      titleLarge: baseTextTheme.titleLarge?.copyWith(
         fontSize: 18,
         fontWeight: FontWeight.w600,
         color: AppColors.textPrimary,
       ),
-      titleMedium: GoogleFonts.inter(
+      titleMedium: baseTextTheme.titleMedium?.copyWith(
         fontSize: 16,
         fontWeight: FontWeight.w500,
         color: AppColors.textPrimary,
       ),
-      titleSmall: GoogleFonts.inter(
+      titleSmall: baseTextTheme.titleSmall?.copyWith(
         fontSize: 14,
         fontWeight: FontWeight.w500,
         color: AppColors.textSecondary,
       ),
 
       // Body Text
-      bodyLarge: GoogleFonts.inter(
+      bodyLarge: baseTextTheme.bodyLarge?.copyWith(
         fontSize: 16,
         fontWeight: FontWeight.normal,
         color: AppColors.textPrimary,
       ),
-      bodyMedium: GoogleFonts.inter(
+      bodyMedium: baseTextTheme.bodyMedium?.copyWith(
         fontSize: 14,
         fontWeight: FontWeight.normal,
         color: AppColors.textSecondary,
       ),
-      bodySmall: GoogleFonts.inter(
+      bodySmall: baseTextTheme.bodySmall?.copyWith(
         fontSize: 12,
         fontWeight: FontWeight.normal,
         color: AppColors.textTertiary,
       ),
 
       // Labels
-      labelLarge: GoogleFonts.inter(
+      labelLarge: baseTextTheme.labelLarge?.copyWith(
         fontSize: 14,
         fontWeight: FontWeight.w600,
-        color: AppColors.textPrimary,
         letterSpacing: 0.5,
+        color: AppColors.textPrimary,
       ),
-      labelMedium: GoogleFonts.inter(
+      labelMedium: baseTextTheme.labelMedium?.copyWith(
         fontSize: 12,
         fontWeight: FontWeight.w500,
-        color: AppColors.textSecondary,
         letterSpacing: 0.5,
+        color: AppColors.textSecondary,
       ),
-      labelSmall: GoogleFonts.inter(
+      labelSmall: baseTextTheme.labelSmall?.copyWith(
         fontSize: 11,
         fontWeight: FontWeight.w500,
-        color: AppColors.textTertiary,
         letterSpacing: 0.5,
+        color: AppColors.textTertiary,
       ),
     );
   }
