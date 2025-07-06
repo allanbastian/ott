@@ -10,6 +10,7 @@ class Video extends Equatable {
   final String thumbnailUrl;
   final String videoUrl;
   final String description;
+  @JsonKey(fromJson: _durationFromJson, toJson: _durationToJson)
   final Duration duration;
   final String categoryId;
 
@@ -29,4 +30,15 @@ class Video extends Equatable {
 
   @override
   List<Object?> get props => [id, title, thumbnailUrl, videoUrl, description, duration, categoryId];
+
+  // Custom JSON converters for Duration
+  static Duration _durationFromJson(dynamic value) {
+    // Handle both string and int inputs
+    final seconds = int.parse(value.toString());
+    return Duration(seconds: seconds);
+  }
+
+  static String _durationToJson(Duration duration) {
+    return duration.inSeconds.toString();
+  }
 }

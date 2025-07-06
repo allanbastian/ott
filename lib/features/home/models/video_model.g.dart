@@ -12,7 +12,7 @@ Video _$VideoFromJson(Map<String, dynamic> json) => Video(
       thumbnailUrl: json['thumbnailUrl'] as String,
       videoUrl: json['videoUrl'] as String,
       description: json['description'] as String,
-      duration: Duration(microseconds: (json['duration'] as num).toInt()),
+      duration: Video._durationFromJson(json['duration']),
       categoryId: json['categoryId'] as String,
     );
 
@@ -22,6 +22,6 @@ Map<String, dynamic> _$VideoToJson(Video instance) => <String, dynamic>{
       'thumbnailUrl': instance.thumbnailUrl,
       'videoUrl': instance.videoUrl,
       'description': instance.description,
-      'duration': instance.duration.inMicroseconds,
+      'duration': Video._durationToJson(instance.duration),
       'categoryId': instance.categoryId,
     };

@@ -1,0 +1,2 @@
+/Users/allanbastian/Documents/personal/ott/android/app/.cxx/Debug/4q1u5n4y/x86_64/CMakeFiles/edit_cache.dir
+/Users/allanbastian/Documents/personal/ott/android/app/.cxx/Debug/4q1u5n4y/x86_64/CMakeFiles/rebuild_cache.dir

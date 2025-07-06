@@ -1,4 +1,4 @@
-package com.example.ott
+package com.allanbastian.ott
 
 import io.flutter.embedding.android.FlutterActivity
 
