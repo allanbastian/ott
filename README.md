@@ -1,16 +1,15 @@
-# ott
+# OTT
 
-A new Flutter project.
+A Netflix themed app that shows videos integrated with a YT shorts/ Instagram Reels scroll behaviour
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+- Clone the repository
+- If you have FVM, set it to use 3.29.3
+- Avoid Flutter 3.27.x as it did cause the video_player to break.
+- Run fvm flutter build apk to generate apk
+- Or you can run fvm flutter run to run it on a local emulator/physical device
 
-A few resources to get you started if this is your first Flutter project:
+### Link to Demo app
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+https://drive.google.com/file/d/1tJZcwRB3cqrTLifvVuP_AftY1o4fUHO6/view?usp=sharing
